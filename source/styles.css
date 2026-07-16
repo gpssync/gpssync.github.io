@@ -176,19 +176,23 @@ h3 { font-size: 1.35rem; }
   transform: translateX(38px);
 }
 .quick-facts {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: start;
+  gap: 14px 22px;
+  width: fit-content;
+  max-width: min(100%, 560px);
   margin: 0;
-  padding: 8px 18px;
-  color: #b7cbd1;
+  padding: 16px 20px;
+  color: #d8edf2;
   background: rgba(3, 18, 27, 0.58);
   border: 1px solid rgba(128, 202, 199, 0.22);
   border-radius: 14px;
   list-style: none;
-  font-size: 0.9rem;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
 }
-.quick-facts li { padding: 10px 0; border-bottom: 1px solid rgba(128, 202, 199, 0.16); }
-.quick-facts li:last-child { border-bottom: 0; }
-.quick-facts li::before { content: "✓"; margin-right: 7px; color: var(--signal); font-weight: 900; }
+.quick-facts li { padding: 0; white-space: nowrap; }
+.quick-facts li::before { content: "✓"; margin-right: 8px; color: var(--signal); font-weight: 900; }
 
 .hero-app-preview {
   width: 100%;
