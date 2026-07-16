@@ -182,7 +182,7 @@ h3 { font-size: 1.35rem; }
   gap: 14px 22px;
   width: fit-content;
   max-width: min(100%, 560px);
-  margin: 0;
+  margin: -7px 0 0;
   padding: 16px 20px;
   color: #d8edf2;
   background: rgba(3, 18, 27, 0.58);
