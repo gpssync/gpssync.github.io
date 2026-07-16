@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GPS Sync keeps a Windows computer clock aligned with GPS time using a compatible NMEA receiver.">
+  <meta name="theme-color" content="#071b29">
+  <link rel="canonical" href="https://gpssync.github.io/">
+  <link rel="icon" href="assets/gps.ico">
+  <link rel="stylesheet" href="styles.css">
+  <title>GPS Sync | GPS Time Sync for Windows</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="GPS Sync home">
+        <img src="assets/gps.ico" width="34" height="34" alt="">
+        <span>gpssync</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="active" href="index.html" aria-current="page">Home</a>
+        <a href="download.html">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="signal-dot"></span> GPS-backed time for Windows</p>
+          <h1>Keep your computer clock aligned with the sky.</h1>
+          <p class="hero-lede">GPS Time Sync reads trusted NMEA time from a GPS receiver, watches for clock drift, and corrects Windows when your chosen threshold is reached.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="download.html">Get GPS Time Sync 1.20</a>
+            <a class="button button-secondary" href="#how-it-works">See how it works</a>
+          </div>
+          <ul class="quick-facts" aria-label="Product highlights">
+            <li>Windows desktop</li>
+            <li>VK-172 auto-detection</li>
+            <li>UTC or local time</li>
+          </ul>
+        </div>
+
+        <div class="status-console" aria-label="GPS synchronization summary">
+          <div class="console-topline">
+            <span>GPS TIME LINK</span>
+            <span class="online"><i></i> RECEIVING</span>
+          </div>
+          <div class="time-readout">
+            <span class="readout-label">REFERENCE TIME</span>
+            <strong>16:16:45</strong>
+            <span>UTC / LOCAL SELECTABLE</span>
+          </div>
+          <div class="telemetry-grid">
+            <div><span>Receiver</span><strong>VK-172</strong></div>
+            <div><span>Baud</span><strong>9600</strong></div>
+            <div><span>Satellites</span><strong>11 in view</strong></div>
+            <div><span>Drift limit</span><strong>2 seconds</strong></div>
+          </div>
+          <div class="signal-track" aria-hidden="true"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Core capabilities">
+      <div class="shell trust-grid">
+        <div><strong>NMEA input</strong><span>RMC, GGA and GSV data</span></div>
+        <div><strong>Smart correction</strong><span>Sync only when needed</span></div>
+        <div><strong>Tray operation</strong><span>Quiet in the background</span></div>
+        <div><strong>Diagnostic logs</strong><span>Optional troubleshooting detail</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Simple by design</p>
+          <h2>From satellite signal to system clock</h2>
+          <p>Set it once, then let GPS Time Sync monitor the receiver and keep time in check.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card">
+            <span class="step-number">01</span>
+            <h3>Connect a receiver</h3>
+            <p>Plug in a VK-172 USB GPS dongle. The app looks for its hardware signature and selects the matching COM port when possible.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">02</span>
+            <h3>Choose your limits</h3>
+            <p>Select UTC or local time, set the comparison interval, and choose how much clock drift is acceptable.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">03</span>
+            <h3>Stay synchronized</h3>
+            <p>Valid GPS time is compared with Windows. When drift reaches the threshold, the system clock is corrected and the event is logged.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="shell showcase-grid">
+        <div class="showcase-copy">
+          <p class="eyebrow">Clear at a glance</p>
+          <h2>See the fix, signal, and sync settings in one place.</h2>
+          <p>The desktop panel shows current date and time, GPS coordinates, fix quality, satellite counts, approximate elevation, receiver settings, and live NMEA activity.</p>
+          <ul class="check-list">
+            <li>Automatic VK-172 detection with manual COM fallback</li>
+            <li>Visible receive indicator for valid NMEA sentences</li>
+            <li>Configurable interval and drift threshold</li>
+            <li>Hide-to-tray operation for everyday use</li>
+          </ul>
+        </div>
+        <figure class="app-window">
+          <img src="assets/gps-time-sync-window.png" width="921" height="736" alt="GPS Time Sync 1.20 desktop window showing receiver details and synchronization settings">
+          <figcaption>GPS Time Sync 1.20 on Windows</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell requirement-card">
+        <div>
+          <p class="eyebrow">Before you begin</p>
+          <h2>Built for a practical Windows GPS setup.</h2>
+        </div>
+        <div class="requirements">
+          <div><span>Operating system</span><strong>Microsoft Windows</strong></div>
+          <div><span>Recommended receiver</span><strong>VK-172 USB GPS</strong></div>
+          <div><span>Typical serial speed</span><strong>9600 baud</strong></div>
+          <div><span>Clock changes</span><strong>Run as administrator</strong></div>
+        </div>
+        <div class="notice">
+          <strong>Administrator rights are required.</strong>
+          <span>Windows normally prevents standard applications from changing the system clock. Run GPS Time Sync as administrator when synchronization is enabled.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="shell cta-inner">
+        <div>
+          <p class="eyebrow">Ready for reliable time?</p>
+          <h2>Put GPS at the center of your Windows clock.</h2>
+        </div>
+        <a class="button button-light" href="download.html">Go to Download</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-brand"><img src="assets/gps.ico" width="28" height="28" alt=""><span>gpssync</span></div>
+      <p>GPS Time Sync 1.20 · Windows GPS clock synchronization</p>
+      <nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="download.html">Download</a></nav>
+    </div>
+  </footer>
+</body>
+</html>
+

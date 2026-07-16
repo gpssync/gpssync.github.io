@@ -1,0 +1,366 @@
+﻿{
+  "name": "GPS Time Sync Help",
+  "version": "1.20",
+  "company": "Your Company",
+  "outputPath": "C:\\New Delphi Projects\\GPS Control 1_20\\Help",
+  "variables": [
+    {
+      "key": "Version",
+      "value": "1.20"
+    },
+    {
+      "key": "ProductName",
+      "value": "GPS Time Sync"
+    },
+    {
+      "key": "BuildDate",
+      "value": "2026-05-27 16:23"
+    },
+    {
+      "key": "BuildNumber",
+      "value": "7"
+    },
+    {
+      "key": "Company",
+      "value": "Your Company"
+    }
+  ],
+  "snippets": [
+    {
+      "key": "warning",
+      "value": "> Warning: Add timing or permissions risks here."
+    },
+    {
+      "key": "procedure",
+      "value": "1. Start GPS Time Sync.\r\n2. Choose the setting.\r\n3. Click Save."
+    },
+    {
+      "key": "note",
+      "value": "> Note: Add practical operating information here."
+    }
+  ],
+  "conditions": [
+  ],
+  "assets": [
+    {
+      "key": "Editor image 20260527 162123416 1",
+      "value": "Images\\ImportedAssets\\EditorImages\\editor-image-20260527162123415-1.png"
+    },
+    {
+      "key": "Editor image 20260527 162129822 1",
+      "value": "Images\\ImportedAssets\\EditorImages\\editor-image-20260527162129821-1.png"
+    },
+    {
+      "key": "Editor image 20260527 161833480 1",
+      "value": "Images\\ImportedAssets\\EditorImages\\editor-image-20260527161833479-1.png"
+    },
+    {
+      "key": "Editor image 20260527 161838666 1",
+      "value": "Images\\ImportedAssets\\EditorImages\\editor-image-20260527161838665-1.png"
+    },
+    {
+      "key": "Editor image 20260527 162128751 1",
+      "value": "Images\\ImportedAssets\\EditorImages\\editor-image-20260527162128749-1.png"
+    },
+    {
+      "key": "Editor image 20260527 162242816 1",
+      "value": "Images\\ImportedAssets\\EditorImages\\editor-image-20260527162242815-1.png"
+    },
+    {
+      "key": "Editor image 20260527 162125675 1",
+      "value": "Images\\ImportedAssets\\EditorImages\\editor-image-20260527162125674-1.png"
+    },
+    {
+      "key": "Editor image 20260527 161604439 1",
+      "value": "Images\\ImportedAssets\\EditorImages\\editor-image-20260527161604438-1.png"
+    }
+  ],
+  "templates": [
+    {
+      "key": "Procedure",
+      "value": "# {{Title}}\r\n\r\n## Steps\r\n{{snippet:procedure}}\r\n\r\n## Result\r\nDescribe the expected result."
+    },
+    {
+      "key": "Troubleshooting",
+      "value": "# {{Title}}\r\n\r\n## Symptom\r\nDescribe the issue.\r\n\r\n## Fix\r\nDescribe the recovery steps."
+    }
+  ],
+  "glossary": [
+    {
+      "key": "UTC",
+      "value": "Coordinated Universal Time, the time base provided by GPS data."
+    },
+    {
+      "key": "Drift",
+      "value": "The difference between the Windows clock and GPS time."
+    },
+    {
+      "key": "NMEA",
+      "value": "The standard text sentence format used by many GPS receivers."
+    },
+    {
+      "key": "COM port",
+      "value": "A Windows serial port assigned to the GPS receiver."
+    }
+  ],
+  "indexKeywords": [
+    {
+      "key": "troubleshooting",
+      "value": "Troubleshooting"
+    },
+    {
+      "key": "VK-172",
+      "value": "GPS Receiver Setup"
+    },
+    {
+      "key": "logging",
+      "value": "Logs"
+    },
+    {
+      "key": "COM port",
+      "value": "GPS Receiver Setup"
+    },
+    {
+      "key": "administrator",
+      "value": "Synchronization Settings"
+    }
+  ],
+  "buildProfiles": [
+    {
+      "key": "HTML Help Website",
+      "value": "html=true;markdown=false;search=true;print=true;glossary=true;index=true;mapids=false"
+    }
+  ],
+  "projectSettings": [
+    {
+      "key": "HtmlTitle",
+      "value": "GPS Time Sync Help"
+    },
+    {
+      "key": "HtmlHomeFileName",
+      "value": "index.html"
+    },
+    {
+      "key": "MetadataPrefix",
+      "value": ""
+    },
+    {
+      "key": "ActiveTheme",
+      "value": "Professional Light"
+    },
+    {
+      "key": "SearchSynonyms",
+      "value": "gps=receiver;port=com;clock=time;problem=troubleshooting"
+    },
+    {
+      "key": "MarkdownFolder",
+      "value": "markdown"
+    },
+    {
+      "key": "LastBuildAt",
+      "value": "2026-05-27 16:23"
+    },
+    {
+      "key": "OutputPath",
+      "value": "C:\\New Delphi Projects\\GPS Control 1_20\\Help"
+    },
+    {
+      "key": "BuildNumber",
+      "value": "7"
+    },
+    {
+      "key": "PortalTitle",
+      "value": "GPS Time Sync Help"
+    },
+    {
+      "key": "Copyright",
+      "value": "Copyright 2026 Your Company"
+    },
+    {
+      "key": "StopWords",
+      "value": "a,an,and,the,or,to,of,in,on,for"
+    },
+    {
+      "key": "DefaultLanguage",
+      "value": "en-US"
+    }
+  ],
+  "themes": [
+    {
+      "key": "Professional Light",
+      "value": "text=#1f2933;background=#f7f9fb;surface=#ffffff;primary=#17324d;accent=#0f766e;warning=#b7791f"
+    }
+  ],
+  "importExportRules": [
+  ],
+  "topics": [
+    {
+      "id": "{F97927BD-755A-5E55-A064-1D02B56DAA3A}",
+      "parentId": "",
+      "title": "GPS Time Sync",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1 style=\"text-align:center;\">GPS Time Sync</h1>\n<p style=\"text-align:center;\"><strong>User Help</strong></p><p style=\"text-align:center;\"><strong><br></strong></p><p style=\"text-align:center;\"><strong><br></strong></p><p style=\"text-align:center;\"><strong><br></strong></p><p style=\"text-align:center;\"><strong><br></strong></p><p style=\"text-align:center;\"><strong><br></strong></p><p style=\"text-align:center;\"><strong><br></strong></p><p style=\"text-align:center;\"><strong><br></strong></p>\n<p style=\"text-align:center;\">Version 1.20</p>\n<p style=\"text-align:center;\">GPS Time Sync is a Windows utility for synchronizing the computer clock from a GPS receiver.</p>\n</article>\n",
+      "status": "Approved",
+      "iconName": "book",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_GPS_TIME_SYNC",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:14:14.961Z"
+    },
+    {
+      "id": "{FB96957C-FB5C-517C-993D-2C4810B639EB}",
+      "parentId": "",
+      "title": "Overview",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>Overview</h1>\n<p>GPS Time Sync reads NMEA time data from a GPS receiver and uses it to keep the Windows system clock accurate. The application was written for use with a VK-172 USB GPS dongle.</p>\n<table class=\"doc-table\"><tbody><tr><th>Feature</th><th>Purpose</th></tr>\n<tr><td>GPS receiver detection</td><td>Looks for the VK-172 GPS dongle and selects the matching COM port when possible.</td></tr>\n<tr><td>Manual COM setup</td><td>Allows manual COM port selection when automatic detection is not available.</td></tr>\n<tr><td>UTC or local time</td><td>Can set Windows time as UTC or local time.</td></tr>\n<tr><td>Drift correction</td><td>Updates the clock when the difference exceeds the configured drift threshold.</td></tr>\n<tr><td>Logging</td><td>Records GPS data and time-change messages for troubleshooting.</td></tr>\n</tbody></table>It should be noted that this application has to be run as administrator to allow it to change the system clock:</article><article><figure data-align=\"none\" style=\"display:block;clear:both;position:relative;overflow:visible;max-width:100%;width:40%;box-sizing:border-box;margin:16px 0;\" draggable=\"true\"><img src=\"Images/ImportedAssets/EditorImages/editor-image-20260527161604438-1.png\" alt=\"image\" data-align=\"none\" style=\"width:100%;max-width:100%;height:auto;display:block;box-sizing:border-box;margin:0 auto;\" draggable=\"true\" title=\"Drag to move image\"></figure><p style=\"clear:both\"><br></p><br><p style=\"clear:both\"><br></p><br></article>\n",
+      "status": "Approved",
+      "iconName": "auto",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_OVERVIEW",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:16:04.439Z"
+    },
+    {
+      "id": "{DF3CD5DE-6D5D-54D3-B8D5-2233FD3DC31B}",
+      "parentId": "",
+      "title": "Quick Start",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>Quick Start</h1>\n<ol>\n<li>Plug the VK-172 GPS dongle into the computer.</li>\n<li>Start GPS Time Sync.</li>\n<li>Confirm the selected COM port, or choose the correct port manually.</li>\n<li>Confirm the baud rate. The usual value is 9600.</li>\n<li>Select Set Local or Set UTC.</li>\n<li>Set the interval and drift threshold.</li>\n<li>Click Save.</li>\n</ol>\n<p><strong>Note:</strong> GPS reception may take a few moments after the receiver is connected.</p><p><br></p><p style=\"clear:both\"><br></p><p style=\"clear:both\"><br></p><p style=\"clear:both\"><br></p><p style=\"clear:both\"><br></p>\n</article>\n",
+      "status": "Approved",
+      "iconName": "auto",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_QUICK_START",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:20:45.859Z"
+    },
+    {
+      "id": "{A20B117C-E353-518B-9A56-AB31A61C8B64}",
+      "parentId": "",
+      "title": "Main Window",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>Main Window</h1>\n<p>The main window shows GPS position, fix status, satellite status, current time, sync settings, and the log window.</p><p><br></p><figure data-align=\"none\" style=\"display:block;clear:both;position:relative;overflow:visible;max-width:100%;width:100%;box-sizing:border-box;margin:16px 0;\" draggable=\"true\"><img src=\"Images/ImportedAssets/EditorImages/editor-image-20260527162242815-1.png\" alt=\"image\" data-align=\"none\" style=\"width:100%;max-width:100%;height:auto;display:block;box-sizing:border-box;margin:0 auto;\" draggable=\"true\" title=\"Drag to move image\"></figure><p style=\"clear:both\"><br></p>\n<table class=\"doc-table\"><tbody><tr><th>Area</th><th>Description</th></tr>\n<tr><td>Latitude and Longitude</td><td>Shows current GPS position when a valid fix is available.</td></tr>\n<tr><td>Fix quality</td><td>Shows GPS or DGPS quality information.</td></tr>\n<tr><td>Fix mode</td><td>Shows whether the receiver has valid GPS data.</td></tr>\n<tr><td>Satellites in use</td><td>Shows the number of satellites used for the current fix.</td></tr>\n<tr><td>Satellites in view</td><td>Shows visible satellites reported by the receiver.</td></tr>\n<tr><td>Approximate elevation</td><td>Shows GPS elevation. This value can fluctuate with satellite movement.</td></tr>\n<tr><td>Current Time</td><td>Shows the GPS-derived time in the selected local or UTC mode.</td></tr>\n<tr><td>Logging</td><td>Shows incoming NMEA data and application messages.</td></tr>\n</tbody></table>\n</article>\n",
+      "status": "Approved",
+      "iconName": "auto",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_MAIN_WINDOW",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:22:42.816Z"
+    },
+    {
+      "id": "{D1EF37E1-2677-563F-A839-A98320C796B8}",
+      "parentId": "",
+      "title": "GPS Receiver Setup",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>GPS Receiver Setup</h1><div>This is the GPS Time Sync screen:</div>\n<p>GPS Time Sync is designed for a VK-172 USB GPS dongle. When the program starts, it attempts to detect the receiver and select the correct COM port.</p>\n<h2>If the receiver is detected</h2>\n<p>Confirm the selected COM port and baud rate, then click Save.</p>\n<h2>If the receiver is not detected</h2>\n<ol>\n<li>Open Windows Device Manager.</li>\n<li>Find the COM port assigned to the GPS receiver.</li>\n<li>Select that COM port in GPS Time Sync.</li>\n<li>Click Save.</li>\n</ol>\n</article>\n",
+      "status": "Approved",
+      "iconName": "auto",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_GPS_RECEIVER_SETUP",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:14:49.476Z"
+    },
+    {
+      "id": "{DE0D82F5-E410-55A9-935C-5DB760F888DC}",
+      "parentId": "",
+      "title": "Synchronization Settings",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>Synchronization Settings</h1>\n<table class=\"doc-table\"><tbody><tr><th>Setting</th><th>Use</th></tr>\n<tr><td>COM Port</td><td>The serial port assigned to the GPS receiver.</td></tr>\n<tr><td>Baud Rate</td><td>The receiver speed. Use 9600 unless your device requires another value.</td></tr>\n<tr><td>Interval (Seconds)</td><td>How often GPS Time Sync compares the Windows clock to GPS time.</td></tr>\n<tr><td>Drift &gt;=</td><td>The allowed difference, in seconds, before the clock is corrected.</td></tr>\n<tr><td>Set UTC</td><td>Sets Windows system UTC from GPS UTC.</td></tr>\n<tr><td>Set Local</td><td>Sets Windows local time using GPS UTC converted through Windows time-zone rules.</td></tr>\n<tr><td>Enable Logging</td><td>Shows and records GPS/NMEA diagnostic data.</td></tr>\n</tbody></table>\n<p><strong>Important:</strong> Updating Windows time may require administrator rights.</p>\n</article>\n",
+      "status": "Approved",
+      "iconName": "auto",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_SYNCHRONIZATION_SETTINGS",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:13:20.495Z"
+    },
+    {
+      "id": "{FF188D61-D0C3-5998-973C-9BBC7CD25101}",
+      "parentId": "",
+      "title": "Saving Settings",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>Saving Settings</h1>\n<p>Click Save after changing the COM port, baud rate, sync interval, drift threshold, UTC/local mode, or logging option.</p>\n<p>Save applies the selected values and attempts to reopen the GPS serial port using the current COM port and baud rate.</p>\n</article>\n",
+      "status": "Approved",
+      "iconName": "auto",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_SAVING_SETTINGS",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:13:22.412Z"
+    },
+    {
+      "id": "{F963B9A8-A966-5930-8DB1-F2555AFDAFDA}",
+      "parentId": "",
+      "title": "Hide to Tray",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>Hide to Tray</h1>\n<p>The application will start and automatically hide to tray.&nbsp; You may also click Hide To Tray to keep GPS Time Sync running in the background and hidden after you have made changes.. The tray icon indicates that the program is still active.</p>\n<p>Click the tray icon to restore the main window.</p>\n</article>\n",
+      "status": "Approved",
+      "iconName": "auto",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_HIDE_TO_TRAY",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:20:29.721Z"
+    },
+    {
+      "id": "{CDE2EA90-2A1A-57D3-8A2D-D4F52B82A285}",
+      "parentId": "",
+      "title": "Logs",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>Logs</h1>\n<p>Logs help diagnose GPS receiver, COM port, and time synchronization problems. Logs are not really necessary unless you want to review the data periodically.&nbsp; The log may be turned off without any adverse effects.</p>\n<table class=\"doc-table\"><tbody><tr><th>Log</th><th>Purpose</th></tr>\n<tr><td>Logging window</td><td>Shows incoming GPS/NMEA lines and application status while the app is running.</td></tr>\n<tr><td>GPSTimeChange.log</td><td>Records application startup, shutdown, settings changes, and time correction messages.</td></tr>\n<tr><td>gps_sync.log</td><td>May be present in builds that write additional GPS synchronization diagnostics.</td></tr>\n</tbody></table>\n<p>Logs are normally stored beside the executable.</p>\n</article>\n",
+      "status": "Approved",
+      "iconName": "auto",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_LOGS",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:23:29.305Z"
+    },
+    {
+      "id": "{AE50ACBB-A91B-5553-9D41-0061291AB382}",
+      "parentId": "",
+      "title": "Troubleshooting",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>Troubleshooting</h1>\n<h2>VK-172 GPS dongle not detected</h2>\n<ul><li>Unplug and reconnect the receiver.</li><li>Check Device Manager for the assigned COM port.</li><li>Select the port manually and click Save.</li></ul>\n<h2>Cannot open COM port</h2>\n<ul><li>Verify the selected COM port.</li><li>Close other programs that may be using the receiver.</li><li>Confirm the baud rate is correct.</li></ul>\n<h2>System time does not update</h2>\n<ul><li>Run GPS Time Sync as administrator.</li><li>Confirm that valid GPS time is being received.</li><li>Check the log for error messages.</li></ul>\n<h2>Elevation changes often</h2>\n<p>This is normal. GPS elevation can fluctuate as satellite geometry changes.</p>\n</article>\n",
+      "status": "Approved",
+      "iconName": "question",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_TROUBLESHOOTING",
+      "language": "en-US",
+      "tags": "gps,time,sync,troubleshooting",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:13:26.539Z"
+    },
+    {
+      "id": "{F3BD345E-717C-5448-BC9D-E00691D2BD92}",
+      "parentId": "",
+      "title": "Files and Maintenance",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>Files and Maintenance</h1>\n<table class=\"doc-table\"><tbody><tr><th>File</th><th>Description</th></tr>\n<tr><td>GPSTimeSync.exe</td><td>Main application executable.</td></tr>\n<tr><td>gps_settings.ini</td><td>Saved application settings, when present.</td></tr>\n<tr><td>GPSTimeChange.log</td><td>Application and time-change log.</td></tr>\n<tr><td>EULA.txt</td><td>License terms.</td></tr>\n<tr><td>Help folder</td><td>Application help files.</td></tr>\n</tbody></table>\n</article>\n",
+      "status": "Approved",
+      "iconName": "auto",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_FILES_AND_MAINTENANCE",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:23:34.665Z"
+    },
+    {
+      "id": "{D40B1F2B-051C-56A7-9D4A-9DC135C19542}",
+      "parentId": "",
+      "title": "Recommended Operating Practice",
+      "body": "<!-- HDC_HTML -->\r\n<article>\n<h1>Recommended Operating Practice</h1>\n<ul>\n<li>Use the same USB port for the GPS dongle when possible.</li>\n<li>Verify the COM port after Windows updates or USB device changes.</li>\n<li>Leave logging off during normal use unless troubleshooting.</li>\n<li>Run as administrator when the app must update Windows system time.</li>\n<li>Review logs after time synchronization problems.</li>\n</ul>\n</article>\n",
+      "status": "Approved",
+      "iconName": "auto",
+      "owner": "GPS Time Sync",
+      "helpId": "IDH_RECOMMENDED_OPERATING_PRACTICE",
+      "language": "en-US",
+      "tags": "gps,time,sync",
+      "conditions": "",
+      "updatedAt": "2026-05-27T16:25:04.858Z"
+    }
+  ]
+}

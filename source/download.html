@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download GPS Time Sync 1.20 for Windows and review installation requirements.">
+  <meta name="theme-color" content="#071b29">
+  <link rel="canonical" href="https://gpssync.github.io/download.html">
+  <link rel="icon" href="assets/gps.ico">
+  <link rel="stylesheet" href="styles.css">
+  <title>Download GPS Time Sync 1.20 | GPS Sync</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="GPS Sync home">
+        <img src="assets/gps.ico" width="34" height="34" alt="">
+        <span>gpssync</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a class="active" href="download.html" aria-current="page">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="download-hero">
+      <div class="shell narrow-shell">
+        <p class="eyebrow"><span class="signal-dot"></span> Windows installer</p>
+        <h1>Download GPS Time Sync 1.20</h1>
+        <p>Use GPS receiver time to monitor and correct your Windows system clock.</p>
+      </div>
+    </section>
+
+    <section class="section download-section">
+      <div class="shell download-layout">
+        <article class="download-card">
+          <div class="download-card-top">
+            <img src="assets/gps.ico" width="72" height="72" alt="GPS Time Sync application icon">
+            <div>
+              <p class="version-label">Current release</p>
+              <h2>GPS Time Sync 1.20</h2>
+              <p>Windows installer · 4.12 MB</p>
+            </div>
+          </div>
+
+          <div class="review-state" role="status">
+            <strong>Local review copy</strong>
+            <span>This website has not been published. The installer below is available only in this local preview until publication is approved.</span>
+          </div>
+
+          <a class="button button-primary button-full" href="downloads/GPSTimeSyncSetup.exe" download>Download installer</a>
+
+          <dl class="release-details">
+            <div><dt>Version</dt><dd>1.20</dd></div>
+            <div><dt>Platform</dt><dd>Microsoft Windows</dd></div>
+            <div><dt>Recommended hardware</dt><dd>VK-172 USB GPS dongle</dd></div>
+            <div><dt>Default baud rate</dt><dd>9600</dd></div>
+          </dl>
+
+          <details class="checksum">
+            <summary>Verify the installer checksum</summary>
+            <p>SHA-256</p>
+            <code>6B359453B8934ABB9E241FC4DEF8B2012F91F3995452692E5C106A5B672D0577</code>
+          </details>
+        </article>
+
+        <aside class="install-panel">
+          <h2>Before installing</h2>
+          <ol class="install-steps">
+            <li><span>1</span><div><strong>Connect your GPS receiver</strong><p>For best automatic setup, connect a VK-172 USB GPS dongle.</p></div></li>
+            <li><span>2</span><div><strong>Install the application</strong><p>Run the downloaded setup program and follow the Windows prompts.</p></div></li>
+            <li><span>3</span><div><strong>Run as administrator</strong><p>Administrator rights are needed for the application to change the system clock.</p></div></li>
+            <li><span>4</span><div><strong>Confirm the COM port</strong><p>If the receiver is not detected automatically, choose its port manually and save.</p></div></li>
+          </ol>
+          <a class="text-link" href="downloads/EULA.txt">Read the End User License Agreement <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="shell faq-shell">
+        <div class="section-heading left-heading">
+          <p class="eyebrow">Good to know</p>
+          <h2>Installation notes</h2>
+        </div>
+        <div class="faq-grid">
+          <article><h3>What if the VK-172 is not detected?</h3><p>Open Windows Device Manager, identify the receiver’s COM port, then select that port in GPS Time Sync and click Save.</p></article>
+          <article><h3>Can I use another GPS receiver?</h3><p>A compatible receiver that outputs supported NMEA sentences may work through manual COM-port selection. Automatic detection is specific to the VK-172 hardware signature.</p></article>
+          <article><h3>Why must it run as administrator?</h3><p>Changing the Windows system clock is a protected operation. Without administrator rights, GPS data can still be read, but a requested clock correction may fail.</p></article>
+          <article><h3>What does the application log?</h3><p>Optional NMEA logging helps diagnose receiver data. Time-change messages are recorded for synchronization troubleshooting.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-brand"><img src="assets/gps.ico" width="28" height="28" alt=""><span>gpssync</span></div>
+      <p>GPS Time Sync 1.20 · Windows GPS clock synchronization</p>
+      <nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="download.html">Download</a></nav>
+    </div>
+  </footer>
+</body>
+</html>
+

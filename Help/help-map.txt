@@ -1,0 +1,12 @@
+﻿IDH_GPS_TIME_SYNC=gps-time-sync.html
+IDH_OVERVIEW=overview.html
+IDH_QUICK_START=quick-start.html
+IDH_MAIN_WINDOW=main-window.html
+IDH_GPS_RECEIVER_SETUP=gps-receiver-setup.html
+IDH_SYNCHRONIZATION_SETTINGS=synchronization-settings.html
+IDH_SAVING_SETTINGS=saving-settings.html
+IDH_HIDE_TO_TRAY=hide-to-tray.html
+IDH_LOGS=logs.html
+IDH_TROUBLESHOOTING=troubleshooting.html
+IDH_FILES_AND_MAINTENANCE=files-and-maintenance.html
+IDH_RECOMMENDED_OPERATING_PRACTICE=recommended-operating-practice.html

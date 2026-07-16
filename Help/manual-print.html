@@ -1,0 +1,121 @@
+﻿<!doctype html><html><head><meta charset="utf-8"><title>Print Manual</title><link rel="stylesheet" href="style.css"></head><body><div class="doc-topic" style="display:block;">
+<h1 style="text-align:center;">GPS Time Sync</h1>
+<p style="text-align:center;"><strong>User Help</strong></p><p style="text-align:center;"><strong><br></strong></p><p style="text-align:center;"><strong><br></strong></p><p style="text-align:center;"><strong><br></strong></p><p style="text-align:center;"><strong><br></strong></p><p style="text-align:center;"><strong><br></strong></p><p style="text-align:center;"><strong><br></strong></p><p style="text-align:center;"><strong><br></strong></p>
+<p style="text-align:center;">Version 1.20</p>
+<p style="text-align:center;">GPS Time Sync is a Windows utility for synchronizing the computer clock from a GPS receiver.</p>
+</div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>Overview</h1>
+<p>GPS Time Sync reads NMEA time data from a GPS receiver and uses it to keep the Windows system clock accurate. The application was written for use with a VK-172 USB GPS dongle.</p>
+<table class="doc-table" style="border-collapse:collapse;width:94%;margin:18px 0 18px 18px;background:#f7fbf8;border:1px solid #333;" border="1" cellspacing="0" cellpadding="7"><tbody><tr><th style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;background:#1f6f54;color:#ffffff;font-weight:bold;height:auto;overflow:visible;">Feature</th><th style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;background:#1f6f54;color:#ffffff;font-weight:bold;height:auto;overflow:visible;">Purpose</th></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">GPS receiver detection</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Looks for the VK-172 GPS dongle and selects the matching COM port when possible.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Manual COM setup</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Allows manual COM port selection when automatic detection is not available.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">UTC or local time</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Can set Windows time as UTC or local time.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Drift correction</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Updates the clock when the difference exceeds the configured drift threshold.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Logging</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Records GPS data and time-change messages for troubleshooting.</td></tr>
+</tbody></table>It should be noted that this application has to be run as administrator to allow it to change the system clock:</div><div class="doc-topic" style="display:block;"><div class="doc-figure"  style="display:block;clear:both;position:relative;overflow:visible;max-width:100%;width:40%;box-sizing:border-box;margin:16px 0;" draggable="true" style="display:block;clear:both;margin:16px 0;text-align:left;"><img src="assets/editor-image-20260527161604438-1.png" alt="image" data-align="none" style="width:100%;max-width:100%;height:auto;display:block;box-sizing:border-box;margin:0 auto;" draggable="true" title="Drag to move image"></div><p style="clear:both"><br></p><br><p style="clear:both"><br></p><br></div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>Quick Start</h1>
+<ol>
+<li>Plug the VK-172 GPS dongle into the computer.</li>
+<li>Start GPS Time Sync.</li>
+<li>Confirm the selected COM port, or choose the correct port manually.</li>
+<li>Confirm the baud rate. The usual value is 9600.</li>
+<li>Select Set Local or Set UTC.</li>
+<li>Set the interval and drift threshold.</li>
+<li>Click Save.</li>
+</ol>
+<p><strong>Note:</strong> GPS reception may take a few moments after the receiver is connected.</p><p><br></p><p style="clear:both"><br></p><p style="clear:both"><br></p><p style="clear:both"><br></p><p style="clear:both"><br></p>
+</div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>Main Window</h1>
+<p>The main window shows GPS position, fix status, satellite status, current time, sync settings, and the log window.</p><p><br></p><div class="doc-figure"  style="display:block;clear:both;position:relative;overflow:visible;max-width:100%;width:100%;box-sizing:border-box;margin:16px 0;" draggable="true" style="display:block;clear:both;margin:16px 0;text-align:left;"><img src="assets/editor-image-20260527162242815-1.png" alt="image" data-align="none" style="width:100%;max-width:100%;height:auto;display:block;box-sizing:border-box;margin:0 auto;" draggable="true" title="Drag to move image"></div><p style="clear:both"><br></p>
+<table class="doc-table" style="border-collapse:collapse;width:94%;margin:18px 0 18px 18px;background:#f7fbf8;border:1px solid #333;" border="1" cellspacing="0" cellpadding="7"><tbody><tr><th style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;background:#1f6f54;color:#ffffff;font-weight:bold;height:auto;overflow:visible;">Area</th><th style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;background:#1f6f54;color:#ffffff;font-weight:bold;height:auto;overflow:visible;">Description</th></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Latitude and Longitude</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Shows current GPS position when a valid fix is available.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Fix quality</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Shows GPS or DGPS quality information.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Fix mode</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Shows whether the receiver has valid GPS data.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Satellites in use</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Shows the number of satellites used for the current fix.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Satellites in view</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Shows visible satellites reported by the receiver.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Approximate elevation</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Shows GPS elevation. This value can fluctuate with satellite movement.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Current Time</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Shows the GPS-derived time in the selected local or UTC mode.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Logging</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Shows incoming NMEA data and application messages.</td></tr>
+</tbody></table>
+</div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>GPS Receiver Setup</h1><div>This is the GPS Time Sync screen:</div>
+<p>GPS Time Sync is designed for a VK-172 USB GPS dongle. When the program starts, it attempts to detect the receiver and select the correct COM port.</p>
+<h2>If the receiver is detected</h2>
+<p>Confirm the selected COM port and baud rate, then click Save.</p>
+<h2>If the receiver is not detected</h2>
+<ol>
+<li>Open Windows Device Manager.</li>
+<li>Find the COM port assigned to the GPS receiver.</li>
+<li>Select that COM port in GPS Time Sync.</li>
+<li>Click Save.</li>
+</ol>
+</div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>Synchronization Settings</h1>
+<table class="doc-table" style="border-collapse:collapse;width:94%;margin:18px 0 18px 18px;background:#f7fbf8;border:1px solid #333;" border="1" cellspacing="0" cellpadding="7"><tbody><tr><th style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;background:#1f6f54;color:#ffffff;font-weight:bold;height:auto;overflow:visible;">Setting</th><th style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;background:#1f6f54;color:#ffffff;font-weight:bold;height:auto;overflow:visible;">Use</th></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">COM Port</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">The serial port assigned to the GPS receiver.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Baud Rate</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">The receiver speed. Use 9600 unless your device requires another value.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Interval (Seconds)</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">How often GPS Time Sync compares the Windows clock to GPS time.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Drift &gt;=</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">The allowed difference, in seconds, before the clock is corrected.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Set UTC</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Sets Windows system UTC from GPS UTC.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Set Local</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Sets Windows local time using GPS UTC converted through Windows time-zone rules.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Enable Logging</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Shows and records GPS/NMEA diagnostic data.</td></tr>
+</tbody></table>
+<p><strong>Important:</strong> Updating Windows time may require administrator rights.</p>
+</div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>Saving Settings</h1>
+<p>Click Save after changing the COM port, baud rate, sync interval, drift threshold, UTC/local mode, or logging option.</p>
+<p>Save applies the selected values and attempts to reopen the GPS serial port using the current COM port and baud rate.</p>
+</div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>Hide to Tray</h1>
+<p>The application will start and automatically hide to tray.&nbsp; You may also click Hide To Tray to keep GPS Time Sync running in the background and hidden after you have made changes.. The tray icon indicates that the program is still active.</p>
+<p>Click the tray icon to restore the main window.</p>
+</div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>Logs</h1>
+<p>Logs help diagnose GPS receiver, COM port, and time synchronization problems. Logs are not really necessary unless you want to review the data periodically.&nbsp; The log may be turned off without any adverse effects.</p>
+<table class="doc-table" style="border-collapse:collapse;width:94%;margin:18px 0 18px 18px;background:#f7fbf8;border:1px solid #333;" border="1" cellspacing="0" cellpadding="7"><tbody><tr><th style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;background:#1f6f54;color:#ffffff;font-weight:bold;height:auto;overflow:visible;">Log</th><th style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;background:#1f6f54;color:#ffffff;font-weight:bold;height:auto;overflow:visible;">Purpose</th></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Logging window</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Shows incoming GPS/NMEA lines and application status while the app is running.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">GPSTimeChange.log</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Records application startup, shutdown, settings changes, and time correction messages.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">gps_sync.log</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">May be present in builds that write additional GPS synchronization diagnostics.</td></tr>
+</tbody></table>
+<p>Logs are normally stored beside the executable.</p>
+</div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>Troubleshooting</h1>
+<h2>VK-172 GPS dongle not detected</h2>
+<ul><li>Unplug and reconnect the receiver.</li><li>Check Device Manager for the assigned COM port.</li><li>Select the port manually and click Save.</li></ul>
+<h2>Cannot open COM port</h2>
+<ul><li>Verify the selected COM port.</li><li>Close other programs that may be using the receiver.</li><li>Confirm the baud rate is correct.</li></ul>
+<h2>System time does not update</h2>
+<ul><li>Run GPS Time Sync as administrator.</li><li>Confirm that valid GPS time is being received.</li><li>Check the log for error messages.</li></ul>
+<h2>Elevation changes often</h2>
+<p>This is normal. GPS elevation can fluctuate as satellite geometry changes.</p>
+</div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>Files and Maintenance</h1>
+<table class="doc-table" style="border-collapse:collapse;width:94%;margin:18px 0 18px 18px;background:#f7fbf8;border:1px solid #333;" border="1" cellspacing="0" cellpadding="7"><tbody><tr><th style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;background:#1f6f54;color:#ffffff;font-weight:bold;height:auto;overflow:visible;">File</th><th style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;background:#1f6f54;color:#ffffff;font-weight:bold;height:auto;overflow:visible;">Description</th></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">GPSTimeSync.exe</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Main application executable.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">gps_settings.ini</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Saved application settings, when present.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">GPSTimeChange.log</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Application and time-change log.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">EULA.txt</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">License terms.</td></tr>
+<tr><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Help folder</td><td style="border:1px solid #333;padding:7px 10px;vertical-align:top;text-align:left;line-height:1.35;height:auto;overflow:visible;">Application help files.</td></tr>
+</tbody></table>
+</div>
+<hr><div class="doc-topic" style="display:block;">
+<h1>Recommended Operating Practice</h1>
+<ul>
+<li>Use the same USB port for the GPS dongle when possible.</li>
+<li>Verify the COM port after Windows updates or USB device changes.</li>
+<li>Leave logging off during normal use unless troubleshooting.</li>
+<li>Run as administrator when the app must update Windows system time.</li>
+<li>Review logs after time synchronization problems.</li>
+</ul>
+</div>
+<hr></body></html>

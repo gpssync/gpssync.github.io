@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>topics/gps-time-sync.html</loc></url>
+  <url><loc>topics/overview.html</loc></url>
+  <url><loc>topics/quick-start.html</loc></url>
+  <url><loc>topics/main-window.html</loc></url>
+  <url><loc>topics/gps-receiver-setup.html</loc></url>
+  <url><loc>topics/synchronization-settings.html</loc></url>
+  <url><loc>topics/saving-settings.html</loc></url>
+  <url><loc>topics/hide-to-tray.html</loc></url>
+  <url><loc>topics/logs.html</loc></url>
+  <url><loc>topics/troubleshooting.html</loc></url>
+  <url><loc>topics/files-and-maintenance.html</loc></url>
+  <url><loc>topics/recommended-operating-practice.html</loc></url>
+</urlset>

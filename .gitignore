@@ -1,0 +1,32 @@
+# Delphi build output and IDE-local state
+Win32/
+Win64/
+dcu/
+bin/
+*.dcu
+*.exe
+!source/downloads/GPSTimeSyncSetup.exe
+*.dll
+*.bpl
+*.rsm
+*.map
+*.tds
+*.identcache
+*.dproj.local
+*.local
+
+# Runtime-generated files
+*.log
+*.lock
+gps_settings.ini
+
+# Local recovery and backup folders
+Backup/
+__history/
+__recovery/
+
+# Windows and editor files
+Thumbs.db
+.DS_Store
+*.tmp
+*.bak
