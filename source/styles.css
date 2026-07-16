@@ -232,6 +232,9 @@ h3 { font-size: 1.35rem; }
 .step-card p { margin-bottom: 0; color: var(--muted); }
 
 .section-dark { color: var(--white); background: var(--ink); }
+.showcase-heading { margin-bottom: 30px; }
+.showcase-heading .eyebrow { margin-bottom: 14px; }
+.showcase-heading h2 { margin-bottom: 0; white-space: nowrap; }
 .showcase-grid { display: grid; grid-template-columns: 0.92fr 1.08fr; align-items: center; gap: clamp(40px, 5vw, 70px); }
 .showcase-copy > p:not(.eyebrow) { color: #b7cbd1; }
 .check-list { padding: 0; margin: 30px 0 0; list-style: none; }
@@ -319,6 +322,7 @@ h3 { font-size: 1.35rem; }
   .steps-grid { grid-template-columns: 1fr; }
   .step-card { min-height: 0; }
   .process-heading h2 { white-space: normal; }
+  .showcase-heading h2 { white-space: normal; }
   .step-number { margin-bottom: 20px; }
   .showcase-copy { max-width: 700px; }
   .requirements { grid-template-columns: 1fr 1fr; }
