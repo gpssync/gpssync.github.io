@@ -182,7 +182,7 @@ h3 { font-size: 1.35rem; }
   gap: 14px 22px;
   width: fit-content;
   max-width: min(100%, 560px);
-  margin: -7px 0 0;
+  margin: 56px 0 0;
   padding: 16px 20px;
   color: #d8edf2;
   background: rgba(3, 18, 27, 0.58);
@@ -313,6 +313,7 @@ h3 { font-size: 1.35rem; }
   .hero-grid { min-height: auto; padding: 66px 0 72px; }
   .hero-copy { max-width: 760px; }
   .hero-visual { width: 100%; max-width: 680px; align-self: auto; justify-self: start; transform: none; }
+  .quick-facts { margin-top: 0; }
   .trust-grid { grid-template-columns: 1fr 1fr; }
   .trust-grid div:nth-child(odd) { border-left: 1px solid var(--line); }
   .steps-grid { grid-template-columns: 1fr; }
