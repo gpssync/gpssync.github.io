@@ -180,7 +180,7 @@ h3 { font-size: 1.35rem; }
   border: 1px solid rgba(255, 255, 255, 0.42);
   border-radius: var(--radius);
   box-shadow: 0 30px 90px rgba(0, 0, 0, 0.34);
-  transform: translateX(86px);
+  transform: translateX(38px);
 }
 .hero-app-preview img { width: 100%; height: auto; object-fit: contain; border-radius: 13px; }
 .hero-app-preview figcaption { padding: 9px 4px 1px; color: #38525d; font-size: 0.8rem; text-align: center; }
