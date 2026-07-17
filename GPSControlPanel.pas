@@ -968,7 +968,8 @@ procedure TfrmGPSControl.btnHelpClick(Sender: TObject);
 var
   HelpIndexPath: string;
 begin
-  HelpIndexPath := 'C:\New Delphi Projects\GPS Control 1_20\Help\index.html';
+  HelpIndexPath := IncludeTrailingPathDelimiter(ExtractFilePath(Application.ExeName)) +
+    'Help\index.html';
 
   if not FileExists(HelpIndexPath) then
   begin
