@@ -279,9 +279,11 @@ h3 { font-size: 1.35rem; }
 .download-card-top h2 { margin-bottom: 5px; font-size: 2rem; }
 .download-card-top p { margin-bottom: 0; color: var(--muted); }
 .version-label { color: var(--ocean) !important; font-size: 0.75rem; font-weight: 900; letter-spacing: 0.1em; text-transform: uppercase; }
-.download-docs { margin-top: 24px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 14px; background: #f7fbf9; }
-.download-docs h3 { margin-bottom: 10px; font-size: 1.1rem; }
-.download-docs a { display: block; margin-top: 8px; }
+.download-docs { margin-top: 24px; padding: 20px; border: 1px solid rgba(0, 110, 125, 0.26); border-radius: 16px; background: linear-gradient(135deg, #f7fbf9, #eefaf4); }
+.download-docs h3 { margin-bottom: 6px; font-size: 1.15rem; }
+.download-docs p { margin-bottom: 12px; color: var(--muted); font-size: 0.92rem; }
+.doc-download-link { display: block; margin-top: 9px; padding: 11px 13px; color: var(--ink); background: var(--white); border: 1px solid var(--line); border-radius: 10px; font-weight: 800; text-decoration: none; }
+.doc-download-link:hover { color: var(--ocean); border-color: rgba(0, 110, 125, 0.35); }
 .review-state { margin-top: 24px; padding: 16px 18px; color: #405c23; background: #eefadc; border: 1px solid #cce8a9; border-radius: 10px; }
 .review-state strong, .review-state span { display: block; }
 .review-state span { margin-top: 3px; font-size: 0.88rem; }
