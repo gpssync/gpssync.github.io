@@ -207,6 +207,21 @@ object frmGPSControl: TfrmGPSControl
     TabOrder = 3
     OnClick = btnCloseClick
   end
+  object btnHelp: TBitBtn
+    Left = 765
+    Top = 617
+    Width = 100
+    Height = 25
+    Caption = 'Help'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clNavy
+    Font.Height = -15
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 14
+    OnClick = btnHelpClick
+  end
   object GroupBox1: TGroupBox
     Left = 60
     Top = 331

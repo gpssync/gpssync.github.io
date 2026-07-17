@@ -16,6 +16,7 @@ interface
 
 uses
   Winapi.Windows,
+  Winapi.ShellAPI,
   Winapi.Messages,
   System.SysUtils,
   System.Classes,
@@ -58,6 +59,7 @@ type
     btnHideToTray: TBitBtn;
     btnSave: TBitBtn;
     btnClose: TBitBtn;
+    btnHelp: TBitBtn;
     GroupBox1: TGroupBox;
     lblCOMPort: TLabel;
     lblInterval: TLabel;
@@ -99,6 +101,7 @@ type
 
     procedure btnCloseClick(Sender: TObject);
     procedure btnHideToTrayClick(Sender: TObject);
+    procedure btnHelpClick(Sender: TObject);
     procedure btnSaveClick(Sender: TObject);
     procedure TrayIcon1Click(Sender: TObject);
   private
@@ -959,6 +962,21 @@ procedure TfrmGPSControl.btnHideToTrayClick(Sender: TObject);
 begin
   TrayIcon1.Visible := True;
   Hide;
+end;
+
+procedure TfrmGPSControl.btnHelpClick(Sender: TObject);
+var
+  HelpIndexPath: string;
+begin
+  HelpIndexPath := 'C:\New Delphi Projects\GPS Control 1_20\Help\index.html';
+
+  if not FileExists(HelpIndexPath) then
+  begin
+    ShowMessage('Help file not found:' + sLineBreak + HelpIndexPath);
+    Exit;
+  end;
+
+  ShellExecute(Handle, 'open', PChar(HelpIndexPath), nil, nil, SW_SHOWNORMAL);
 end;
 
 procedure TfrmGPSControl.TrayIcon1Click(Sender: TObject);
