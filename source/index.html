@@ -8,7 +8,10 @@
   <link rel="canonical" href="https://gpssync.github.io/">
   <link rel="icon" href="assets/gps.ico">
   <link rel="stylesheet" href="styles.css">
-  <title>GPS Sync | GPS Time Sync for Windows</title>
+  <link rel="preconnect" href="https://cdn.gtranslate.net">
+  <link rel="preconnect" href="https://translate.google.com">
+  <link rel="preconnect" href="https://translate.googleapis.com">
+  <title translate="no">GPS Sync | GPS Time Sync for Windows</title>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VVHCGXXPSZ"></script>
   <script>
@@ -20,13 +23,23 @@
   </script>
 </head>
 <body>
+  <div class="gtranslate_wrapper notranslate" translate="no"></div>
+  <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right"}</script>
+  <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+  <script src="assets/translation-selector.js" defer></script>
+  <script>
+    window.addEventListener('load', function () {
+      document.querySelector('.gtranslate_wrapper').dispatchEvent(new Event('focusin', { bubbles: true }));
+    });
+  </script>
+
   <a class="skip-link" href="#main-content">Skip to content</a>
 
   <header class="site-header">
     <div class="shell header-inner">
       <a class="brand" href="index.html" aria-label="GPS Sync home">
         <img src="assets/gps.ico" width="34" height="34" alt="">
-        <span>GPS Time Sync</span>
+        <span class="notranslate" translate="no">GPS Time Sync</span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a class="active" href="index.html" aria-current="page">Home</a>
@@ -40,10 +53,10 @@
       <div class="shell hero-grid">
         <div class="hero-copy">
           <p class="eyebrow"><span class="signal-dot"></span> GPS-backed time for Windows</p>
-          <h1>Keep your computer time precise with GPS Time Sync</h1>
-          <p class="hero-lede">GPS Time Sync reads trusted NMEA time from a GPS receiver, watches for clock drift, and corrects Windows when your chosen threshold is reached.</p>
+          <h1>Keep your computer time precise with <span class="notranslate" translate="no">GPS Time Sync</span></h1>
+          <p class="hero-lede"><span class="notranslate" translate="no">GPS Time Sync</span> reads trusted NMEA time from a GPS receiver, watches for clock drift, and corrects Windows when your chosen threshold is reached.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="download.html">Get GPS Time Sync 1.20</a>
+            <a class="button button-primary" href="download.html">Get <span class="notranslate" translate="no">GPS Time Sync</span> 1.20</a>
             <a class="button button-secondary" href="#how-it-works">See how it works</a>
           </div>
         </div>
@@ -51,7 +64,7 @@
         <div class="hero-visual">
           <figure class="hero-app-preview">
             <img src="assets/gps-time-sync-window2.png" width="691" height="552" alt="Actual GPS Time Sync 1.20 application interface showing GPS information, synchronization settings, and live NMEA data">
-            <figcaption>Actual GPS Time Sync 1.20 interface</figcaption>
+            <figcaption>Actual <span class="notranslate" translate="no">GPS Time Sync</span> 1.20 interface</figcaption>
           </figure>
           <ul class="quick-facts" aria-label="Product highlights">
             <li>Windows desktop</li>
@@ -76,7 +89,7 @@
         <div class="section-heading process-heading">
           <p class="eyebrow">Simple by design</p>
           <h2>From satellite signal to system clock</h2>
-          <p>Set it once, then let GPS Time Sync monitor the receiver and keep time in check.</p>
+          <p>Set it once, then let <span class="notranslate" translate="no">GPS Time Sync</span> monitor the receiver and keep time in check.</p>
         </div>
         <div class="steps-grid">
           <article class="step-card">
@@ -136,7 +149,7 @@
         </div>
         <div class="notice">
           <strong>Administrator rights are required.</strong>
-          <span>Windows normally prevents standard applications from changing the system clock. Run GPS Time Sync as administrator when synchronization is enabled.</span>
+          <span>Windows normally prevents standard applications from changing the system clock. Run <span class="notranslate" translate="no">GPS Time Sync</span> as administrator when synchronization is enabled.</span>
         </div>
       </div>
     </section>
@@ -154,8 +167,11 @@
 
   <footer class="site-footer">
     <div class="shell footer-inner">
-      <div class="footer-brand"><img src="assets/gps.ico" width="28" height="28" alt=""><span>GPS Time Sync</span></div>
-      <p>GPS Time Sync 1.20 · Windows GPS clock synchronization</p>
+      <div class="footer-brand"><img src="assets/gps.ico" width="28" height="28" alt=""><span class="notranslate" translate="no">GPS Time Sync</span></div>
+      <div class="footer-copy">
+        <p><span class="notranslate" translate="no">GPS Time Sync</span> 1.20 · Windows GPS clock synchronization</p>
+        <p>Automatic translations are machine-generated by <span class="notranslate" translate="no">GTranslate</span>; select English to view the original.</p>
+      </div>
       <nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="download.html">Download</a></nav>
     </div>
   </footer>
